@@ -45,7 +45,7 @@ def detect_intent(user_input):
     score = similarity[0][best_match]
 
 
-    if score < 0.3:
+    if score < 0.45:    # it checks for a similarity score below 0.45 (45%) and returns "unknown" if the score is below that threshold. This means that if the user's input is not similar enough to any of the predefined intents, the function will classify it as "unknown".
         return "unknown"
 
 

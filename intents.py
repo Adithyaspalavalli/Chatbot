@@ -26,10 +26,13 @@ intents = {
          "which account" # not working
     ],
 
-    "goodbye": [
+        "goodbye": [
         "bye",
         "exit",
-        "quit"
+        "quit",
+        "see you",
+        "see you later",
+        "good night"
     ]
 
 }
